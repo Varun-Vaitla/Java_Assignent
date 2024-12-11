@@ -1,0 +1,11 @@
+class Rectangle
+{
+int area(int l,int b)
+{
+int res=l*b;
+return res;
+}
+int x=new Rectangle().area(10,5);
+System.out.println(x);
+}
+}

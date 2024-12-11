@@ -1,0 +1,13 @@
+class ParallelogramPara
+{
+static void triArea(int b,int h)
+{
+
+double res=b*h;
+System.out.println(res);
+}
+public static void main(String[] args)
+{
+triArea(10,5);
+}
+}

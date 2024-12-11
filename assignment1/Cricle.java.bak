@@ -1,0 +1,14 @@
+class Cricle
+{
+static void areaCricle()
+{
+ double pi=3.14;
+ int r=5;
+ int res= r*r*pi;
+ System.out.println(res);
+ }
+ public static void main(String[] args)
+ {
+ areaCricle();
+ }
+ }
