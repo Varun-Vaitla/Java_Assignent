@@ -1,0 +1,14 @@
+class Cir
+{
+void area(double r)
+{
+double pi=3.14;
+double res=r*r;
+System.out.println(res);
+}
+public static void main(String[] args)
+{
+Cir c=new Cir();
+c.area(10);
+}
+}

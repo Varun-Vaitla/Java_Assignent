@@ -1,0 +1,16 @@
+class Trepe
+{
+void area(double a,double b,double h)
+{
+double a=10;
+double b=5;
+double h=10;
+double res=0.5*a+b*h;
+System.out.println(res);
+}
+public static void main(String[] args)
+{
+Trepe s=new Trepe();
+s.area(30,5,20);
+}
+}
